@@ -13,7 +13,7 @@ Created on Thu Nov 18 11:05:55 2021
 import csv
 import re
 fichier_csv = open("phython.csv", "r",encoding='utf-8-sig')
-csv = csv.reader(fichier_csv, delimiter=";")
+csv = csv.reader(fichier_csv, delimiter=",")
 
 
 col1 = []
