@@ -9,7 +9,6 @@ Created on Thu Nov 18 11:05:55 2021
 # je peux les utiliser comme un tableau ou une liste tel que col1[0] tapé dans
 # la console donne 'a' par exemple.
 
-import numpy as np
 # Ouverture clé de codage
 import csv
 import re
@@ -29,8 +28,6 @@ fichier_csv.close ()
 # print("Symboles :\n",col2)
 
 # Ouverture et affichage du texte à coder
-texte = open("texte.txt", "r")
-lignes = texte.readlines()
 # print("\n Texte à coder :\n",lignes)
 
 
